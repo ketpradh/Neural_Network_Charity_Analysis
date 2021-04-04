@@ -25,7 +25,7 @@ Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 - Depending on the input parameters of 43, the number of neurons used were 80 for the input layer which was roughly twice the number of inputs. 
 Were you able to achieve the target model performance?
-- The achieved target performance was ~74% with the optimizations.
+- The achieved target performance was ~72.6% without the optimizations.
 What steps did you take to try and increase model performance?
 - Attempt #1
 - Attempt #2
