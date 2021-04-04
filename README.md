@@ -20,16 +20,16 @@ What variable(s) are considered to be the features for your model?
 - ASK_AMT—Funding amount requested
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
-- Variables such as EIN and NAME were not considered as targets or features as they do not assist in characterizing the output of the dataset.
+- Variables such as **EIN and NAME** were not considered as targets or features as they do not assist in characterizing the output of the dataset.
 Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 - Depending on the input parameters of 43, the number of neurons used were 80 for the input layer which was roughly twice the number of inputs. 
-Were you able to achieve the target model performance?
+Were you able to achieve the target model performance? The desired model performance was not achieved.
 - The achieved target performance was ~72.6% without the optimizations.
 What steps did you take to try and increase model performance?
-- Attempt #1
-- Attempt #2
-- Attempt #3
+- Attempt #1 Change the Activation Functions
+- Attempt #2 Change the number of neurons in the hidden layers and increase number of epochs
+- Attempt #3 Add an additional hidden layer
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 - We overall achieved an accuracy of ~74% which was a little less compared to the desired accuracy of 75%.
