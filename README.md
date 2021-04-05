@@ -36,4 +36,4 @@ What variable(s) are considered to be the features for your model?
 ## Summary: 
 - We overall achieved an accuracy of ~74% which was a little less compared to the desired accuracy of 75%.
 - Even with optimization, it was a challenge to achieve the desired accuracy. This was probably because of overfitting of the data by the model.
-- Recommendation - We can use other supervised machine learning algorithms such as the Random Forest Classifier Algorithm to achieve the desired accuracy. As shown, we can get the desired level of accuracy with Random Forest Classifier.
+- Recommendation - We can use other supervised machine learning algorithms such as the Random Forest Classifier Algorithm to achieve the desired accuracy. As shown, we can get the similar level of accuracy with Random Forest Classifier within lesser time compared to deep learning Neural Networks.
